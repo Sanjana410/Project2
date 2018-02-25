@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.sgarg.quizapp.MainActivity">
+    tools:context="com.example.sgarg.quizapp.Main2Activity">
 
     <TextView
         android:id="@+id/timer_text_view"
@@ -20,7 +20,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:text="2 + 3"
+        android:text="17 + 5"
         android:textSize="35sp" />
 
     <TextView
@@ -59,7 +59,7 @@
 
         <Button
             android:id="@+id/button2"
-            android:tag="35"
+            android:tag="22"
             android:layout_column="1"
             android:layout_columnWeight="1"
             android:layout_gravity="fill"
@@ -67,12 +67,12 @@
             android:layout_rowWeight="1"
             android:background="#8ed379"
             android:onClick="score"
-            android:text="35"
+            android:text="22"
             android:textSize="40sp" />
 
         <Button
             android:id="@+id/button3"
-            android:tag="5"
+            android:tag="29"
             android:layout_column="0"
             android:layout_columnWeight="1"
             android:layout_gravity="fill"
@@ -80,12 +80,12 @@
             android:layout_rowWeight="1"
             android:background="#00ced1"
             android:onClick="score"
-            android:text="5"
+            android:text="29"
             android:textSize="40sp" />
 
         <Button
             android:id="@+id/button4"
-            android:tag="10"
+            android:tag="39"
             android:layout_column="1"
             android:layout_columnWeight="1"
             android:layout_gravity="fill"
@@ -93,7 +93,7 @@
             android:layout_rowWeight="1"
             android:background="#dd0a2b"
             android:onClick="score"
-            android:text="10"
+            android:text="39"
             android:textSize="40sp" />
     </GridLayout>
 
@@ -117,6 +117,4 @@
         android:onClick="restart"
         android:text="Start New Game" />
 
-
 </RelativeLayout>
-
